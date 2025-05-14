@@ -34,8 +34,6 @@ Python version 3.8.0 or higher is required if you are going to run the file from
 
 * Message to those coding masters out there, if you see something we can improve in our code, feel free to make a pull request. This will really help us a lot. ╰(✿´⌣\`✿)╯♡
 
-* TKperson: I got the idea of creating the C-REAL bot from [Cerealwithnomilk](https://www.youtube.com/channel/UCxX7O68badw2sBbcvQK0wBQ); the bot is named after this guy.
-
 ## Why did my computer say it's a dangerous file/containing virus?
 * I'm going to make myself clear here - it's not a virus.
 * There is another way for people that don't trust the released versions, and dont't want to download python to run the bot. Use https://repl.it/, make an account, choose "new repl" in the top left corner, choose python, click "create repl", copy and paste the [source code](https://raw.githubusercontent.com/TKperson/Nuking-Discord-Server-Bot-Nuke-Bot/master/c-realV2.py) into repl, and click on the run button at the top.  
@@ -46,7 +44,7 @@ Python version 3.8.0 or higher is required if you are going to run the file from
 * `.check <userID|tag,|ping>` - Checks for the permissions that the bot has in a server.
 * `.autoNick` - Nicks the bot itselfs every few moments to bounce around the member list, making it harder for admins to kick the bot.
 * `.autoStatus` - changes from online to offline and offline to online every few moments to bounce around the member list.
-* `.config <feature> <args...>` - if you just type out `.config` it will show you all the features that you can config and it will guide you with text in the `.config` command. For example, if you want to add webhook spammer names to config webhook spam, you first want to type `.config webhook_spam`. The bot will send out a description of the webhook_spam feature and the config commands you can use to config the webhook_spam feature. From there you should be able to find something like `webhook <type> add <text>` for adding something into the `<type>` in this case you want to choose the username for the spammers, so you can type `.config webhook_spam usernames add TKperson` for adding usernames to  webhook_spam.
+* `.config <feature> <args...>` - if you just type out `.config` it will show you all the features that you can config and it will guide you with text in the `.config` command. For example, if you want to add webhook spammer names to config webhook spam, you first want to type `.config webhook_spam`. The bot will send out a description of the webhook_spam feature and the config commands you can use to config the webhook_spam feature. From there you should be able to find something like `webhook <type> add <text>` for adding something into the `<type>` in this case you want to choose the username for the spammers, so you can type `.config webhook_spam usernames add SubToGamerNub` for adding usernames to  webhook_spam.
 
 ## Guides
 ### 2.4 setup
